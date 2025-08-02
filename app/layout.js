@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import WagmiWrapper from './wagmi-wrapper'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
